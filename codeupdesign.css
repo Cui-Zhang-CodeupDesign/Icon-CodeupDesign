@@ -2,6 +2,7 @@ body{
     background-color: #e6e6e6;
 }
 .Palette {
+    margin: 1.5em;
     width: 105px;
     height: 105px;
     border-radius: 50%;
@@ -49,6 +50,10 @@ body{
   .blue{
     background-color: #00aba9;
   }
+  .anton-text{
+      font-family: 'Anton', sans-serif;
+      font-weight: bolder;
+  }
 .abel-text{
         font-family: 'Abel', sans-serif;
         font-weight: bold;
@@ -75,4 +80,18 @@ body{
     font-family: 'Abel', sans-serif;
     font-weight: bolder;
     text-align:left;
+}
+.last-text-box-bg{
+    background-color:#e6e6e6;
+}
+#first-part-text{
+    margin:2.5em;
+}
+.red-orange-ball{
+    display: flex;
+    justify-content: space-around;
+}
+.green-blue-ball{
+    display: flex;
+    justify-content: space-around;
 }
