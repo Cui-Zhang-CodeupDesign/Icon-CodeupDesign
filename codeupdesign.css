@@ -1,0 +1,78 @@
+body{
+    background-color: #e6e6e6;
+}
+.Palette {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: white;
+    border-width:10px;
+    display: flex;
+    position: relative;
+  }
+.icons{
+    margin: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+.circle-text-p{
+    hyphens: auto;
+    margin: auto;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    }
+.circle-text-i{
+    hyphens: auto;
+    margin: auto;
+    text-align:justify;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    font-size:small;
+    color: black;
+    }
+    
+  .red{
+    background-color: #e6563b;;
+  }
+  .orange{
+    background-color: #eb9d3a;
+  }
+  .green{
+    background-color: #7cb06c;
+  }
+  .blue{
+    background-color: #00aba9;
+  }
+.abel-text{
+        font-family: 'Abel', sans-serif;
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+        margin-top: 3em;
+        margin-right: 15%;
+}
+.card{
+    border-color:  #e6e6e6;
+
+}
+.card-img-top{
+    background-color: #e6e6e6;
+    border-style:solid;
+    border-color:#d8d4d4;
+    border-width:7px;
+}
+.card-body{
+    background-color: #e6e6e6;
+}
+.card-abel{
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    text-align:left;
+}
