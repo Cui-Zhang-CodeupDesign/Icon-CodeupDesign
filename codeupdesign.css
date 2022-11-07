@@ -11,57 +11,61 @@ body{
     border-width:10px;
     display: flex;
     position: relative;
-  }
+}
 .icons{
-    margin: 2px;
     width: 18px;
-    height: 18px;
+    height: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    text-align: center;
-  }
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-left: auto;
+    font-size: .75em;
+}
 .circle-text-p{
     hyphens: auto;
     margin: auto;
     text-align: center;
     font-family: 'Anton', sans-serif;
     color: white;
-    }
+}
 .circle-text-i{
     hyphens: auto;
-    margin: auto;
+    margin:auto;
     text-align:justify;
+    align-items: center;
     font-family: 'Anton', sans-serif;
     font-weight: lighter;
-    font-size:small;
+    font-size: 1em;
     color: black;
-    }
-    
-  .red{
+}
+
+.red{
     background-color: #e6563b;;
-  }
-  .orange{
+}
+.orange{
     background-color: #eb9d3a;
-  }
-  .green{
+}
+.green{
     background-color: #7cb06c;
-  }
-  .blue{
+}
+.blue{
     background-color: #00aba9;
-  }
-  .anton-text{
-      font-family: 'Anton', sans-serif;
-      font-weight: bolder;
-  }
+}
+.anton-text{
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+}
 .abel-text{
-        font-family: 'Abel', sans-serif;
-        font-weight: bold;
-        font-size: 100%;
-        text-align: center;
-        margin-bottom: 15%;
-        margin-top: 3em;
-        margin-right: 15%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top: 3em;
+    margin-right: 15%;
 }
 .card{
     border-color:  #e6e6e6;
@@ -94,4 +98,7 @@ body{
 .green-blue-ball{
     display: flex;
     justify-content: space-around;
+}
+.card-text{
+    width: 170px;
 }
